@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.form-horizontal{
+     position:relative; top: 160px; left: 250px;
+    
+}
+#button{
+    position: absolute; left: 100px;
+}
