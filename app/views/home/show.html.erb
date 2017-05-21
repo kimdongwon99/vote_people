@@ -1,0 +1,10 @@
+<h1><%= @post.id%>번 후보 입니다.</h1>
+
+<h2>후보자 : <%= @post.title%></h2>
+
+<p>후보자 소개 : <%= @post.content%></p>
+
+<h3><a href="/index"><method="POST"> [목록으로가기]</method> </a></h3>
+
+<h3><a href="/home/edit/<%= @post.id%>">[수정]</a></h3>
+<h3><a href="/home/destroy/<%= @post.id%>" data-confirm="진짜로 삭제하시겠어요?">[삭제]</a></h3>
